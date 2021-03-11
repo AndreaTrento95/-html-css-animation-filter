@@ -111,3 +111,26 @@
         transform: rotate(360deg);
     }
 }
+
+
+
+.ex-11-icon:hover{
+    animation-name: notAll;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+@keyframes notAll{
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    90%{
+        transform: rotate(300deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
